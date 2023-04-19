@@ -30,7 +30,7 @@ a = text_to_index[number]
 print(a,"\n")
 
 number = 0
-number = int(number)
+#number = int(number)
 
 while number < 5:
     a = text_to_index[number]
