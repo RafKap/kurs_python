@@ -13,7 +13,7 @@ print("\t", lista3, "\n")
 # String index - powinno rozlozyc text na kolejne linie w print
 
 text_to_index = input("Podaj teks do rozbicia: ")
-len(text_to_index)
+#len(text_to_index)
 # print(len(text_to_index))
 b = len(text_to_index)
 print(b, "\n")
@@ -38,5 +38,9 @@ while number < b:
 lcz = [input("Lista: ")]
 for i in lcz:
     print(i)
+print()
 
-choice_list = [1, 2, 3]
+choice_list = [1, 2, 3, 4, 6, 7, 8, 0]
+
+for i in choice_list:
+    print(i)
