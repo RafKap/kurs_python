@@ -35,10 +35,11 @@ while number < b:
     if number == b:
         print()
 
-lcz = [input("Lista: ")]
+lcz = input("Lista: ").split(" ")
+# lcz = lcz.split(" ")
 for i in lcz:
     print(i)
-print()
+#print(lcz)
 
 choice_list = [1, 2, 3, 4, 6, 7, 8, 0]
 
