@@ -27,9 +27,9 @@ e = E.count("NA")
 print(e)
 
 #zad 6
-n = "aAd123"
-m = n.isalnum() and n.isupper()
-print(m)
+n = "AAd123_"
+m = n.isalnum() and any(char.isupper() for char in n)
+print("Zad 6", m)
 
 
 txt = input("daj tekst: ")
