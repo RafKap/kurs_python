@@ -13,7 +13,7 @@ a oraz nieparzystych elementów z drugiej.
 Przekształć powstałą listę w set."""
 
 
-truple_1 = 1, 1, 1, 1, 5
+tuple_1 = 1, 1, 1, 1, 5
 truple_2 = 1, 2, 3, 4, 5, 1, 2, 8,
 
 my_list = []

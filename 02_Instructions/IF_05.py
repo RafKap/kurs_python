@@ -3,12 +3,7 @@ Hasło powinno składać z liter i cyfr, zwierać conajmniej 1 małą literę, 1
 Poinformuj użytkownika, jeśli wpisane hasło jest nie poprawne. Wyświetl różne komunikaty w zależności od rodzaju błędu."""
 
 
-
 password = input("Podaj haslo: ")
-
-
-#password = password.isalnum() and any(char.isupper() for char in password) and any(char.islower() for char in password) and len(char) >= 8
-
 
 
 if len(password) < 8:

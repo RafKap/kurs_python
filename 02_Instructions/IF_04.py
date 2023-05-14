@@ -11,4 +11,9 @@ zadanie = input("Podaj dowolnu ciag znaków: ")
 
 if len(zadanie) > 5:
     print("String jest dluzszy niz 5 znaków")
-    elif
+
+if "a" in zadanie.lower():
+    zadanie = zadanie.lower().replace("a", "z")
+    print(f'{zadanie} zawierało a i zmieniono tą literkę na z')
+else:
+    print(f'{zadanie} nie zawiera literki a')
