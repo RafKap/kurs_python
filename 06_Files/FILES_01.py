@@ -1,5 +1,6 @@
 import random
 
+
 file_to_open = input("Put file name -> ")
 file_to_open = file_to_open + ".txt"
 with open(file_to_open, encoding="UTF-8") as fopen:
